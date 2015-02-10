@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: bot@strajah.com
+  api_key:
+    secure: DdirozSct6VxcvlCKhJmcx4oDkB5AEEvCA1ZfHGGeyNoya06S2/CdoPTnq4D7yQoY2S/TeiZzs5NE5scnBpVfPk4K5h8/tmhZC3AzwteKm/bfGNtjy+PmwTkfUk+2G2DoGNcEZc9fdGcnfESvE2PRySySpZvp3WUfPEXDxq+JIM=
+  on:
+    tags: true
+    repo: strajah/strajah-sf
+    all_branches: true

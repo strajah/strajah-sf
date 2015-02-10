@@ -1,0 +1,22 @@
+{
+  "name": "strajah-sf",
+  "version": "1.0.0",
+  "description": "Force.com pluggin for Strajah",
+  "main": "./lib/strajah-sf",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests -u tdd --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strajah/strajah-sf.git"
+  },
+  "author": "The Game Of Code",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strajah/strajah-sf/issues"
+  },
+  "homepage": "https://github.com/strajah/strajah-sf",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
